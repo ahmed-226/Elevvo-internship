@@ -1,5 +1,7 @@
 # Contact Form - Task 2
 
+![alt text](image.png)
+
 A responsive contact form built with HTML, CSS, and JavaScript that works seamlessly across all screen sizes.
 
 ## Features

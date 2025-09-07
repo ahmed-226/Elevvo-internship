@@ -1,5 +1,7 @@
 # Techify - Responsive SaaS Landing Page
 
+![alt text](image.png)
+
 A modern, fully responsive landing page for a fictional SaaS product called "Techify." This project showcases professional web design principles with advanced animations, dark/light mode toggle, and pixel-perfect responsive design across all devices.
 
 ## Features
