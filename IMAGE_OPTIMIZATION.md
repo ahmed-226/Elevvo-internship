@@ -5,14 +5,20 @@ This document provides information about image management and optimization in th
 ## Current Image Status
 
 ### Existing Images
-- ✅ **task_1/image.png** (454KB) - Collapsible Sidebar demo
-- ✅ **task_2/image.png** (742KB) - Contact Form demo  
-- ✅ **task_3/image.png** (355KB) - TaskFlow demo
+- ✅ **task_1/image.png** (445KB) - Collapsible Sidebar demo
+- ✅ **task_2/image.png** (726KB) - Contact Form demo  
+- ✅ **task_3/image.png** (348KB) - TaskFlow demo
 - ✅ **task_4/image.png** (1.2MB) - Blog Homepage demo
-- ✅ **task_5/image.png** (312KB) - Techify SaaS demo
-- ✅ **task_6/public/dashboard.png** (33KB) - WorkSphere Dashboard placeholder
-- ✅ **task_7/demo.gif** (6MB) - Weather Dashboard demo
-- ✅ **task_8/public/dashboard.png** (31KB) - Job Tracker Dashboard placeholder
+- ✅ **task_5/image.png** (305KB) - Techify SaaS demo
+- ✅ **task_6/public/dashboard.png** (246KB) - WorkSphere Dashboard (from submodule)
+- ✅ **task_7/demo.gif** (5.9MB) - Weather Dashboard demo
+- ✅ **task_8/public/dashboard.png** (224KB) - Job Tracker Dashboard (from submodule)
+
+### Additional Images in Submodules
+- **task_6/public/activities.png** (244KB) - WorkSphere Activities view
+- **task_6/public/profile.png** (267KB) - WorkSphere Profile view
+- **task_6/public/projects.png** (249KB) - WorkSphere Projects view
+- **task_8/public/add-job.png** (406KB) - Job Tracker Add Job form
 
 ## Image Optimization
 
