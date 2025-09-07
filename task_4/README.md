@@ -1,4 +1,5 @@
 # Personal Blog Homepage
+![alt text](image.png)
 
 A modern, responsive personal blog homepage showcasing blog posts in an elegant card layout. This project demonstrates advanced filtering, search functionality, pagination, and smooth animations for an engaging user experience.
 

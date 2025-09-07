@@ -1,5 +1,7 @@
 # TaskFlow - One-Page Website
 
+![alt text](screencapture-127-0-0-1-5500-task-3-index-html-2025-09-07-13_32_47.png)
+
 A modern, responsive one-page website for TaskFlow, a fictional task management app. This project demonstrates clean design principles, responsive layouts, and smooth animations.
 
 ## Features

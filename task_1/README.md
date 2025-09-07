@@ -1,5 +1,7 @@
 # Collapsible Sidebar - Task 1
 
+![alt text](sidebar-demo.png)
+
 A fully responsive collapsible sidebar implementation with smooth animations and modern design.
 
 ## Features
