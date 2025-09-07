@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techify - Elevate Your Workflow</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body class="bg-light dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
+    <!-- Theme Toggle Button -->
+    <div class="flex justify-end p-4">
+        <button onclick="toggleTheme()"
+            class="px-6 py-3 rounded-lg bg-primary text-white dark:bg-accent dark:text-white shadow-lg hover:bg-primary-dark dark:hover:bg-blue-600 hover-glow transition-all duration-300 transform hover:scale-105">
+            <span class="flex items-center gap-2">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                </svg>
+                Toggle Theme
+            </span>
+        </button>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="text-center py-20 px-4 hero-gradient animate-on-scroll">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 text-primary float-animation"><span class="text-yellow-400">Techify:</span> Elevate Your Workflow
+            </h1>
+            <p class="text-xl md:text-2xl mb-10 text-gray-600 dark:text-gray-300">A powerful SaaS solution to
+                supercharge your productivity and streamline your operations.</p>
+            <a href="#pricing"
+                class="inline-block px-10 py-4 bg-accent text-white font-semibold rounded-lg shadow-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105 hover-glow">
+                <span class="flex items-center gap-2">
+                    Get Started
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 px-4 max-w-6xl mx-auto animate-on-scroll">
+        <h2 class="text-4xl font-bold mb-12 text-center text-primary">Powerful Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div
+                class="bg-card p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 flex flex-col items-center card-hover">
+                <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mb-6 float-animation">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <path d="M12 20l9-5-9-5-9 5 9 5z" />
+                        <path d="M12 12V4" />
+                    </svg>
+                </div>
+                <h3 class="font-bold text-2xl mb-4 text-primary">Cloud Sync</h3>
+                <p class="text-gray-600 dark:text-gray-300 text-center">Access your data anywhere, anytime, with
+                    enterprise-grade security and real-time synchronization.</p>
+            </div>
+            <div
+                class="bg-card p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 flex flex-col items-center card-hover">
+                <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mb-6 float-animation"
+                    style="animation-delay: 0.5s;">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" />
+                        <path d="M12 6v6l4 2" />
+                    </svg>
+                </div>
+                <h3 class="font-bold text-2xl mb-4 text-primary">Real-Time Analytics</h3>
+                <p class="text-gray-600 dark:text-gray-300 text-center">Track your progress and performance with
+                    comprehensive insights and interactive dashboards.</p>
+            </div>
+            <div
+                class="bg-card p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 flex flex-col items-center card-hover">
+                <div class="w-16 h-16 bg-accent rounded-full flex items-center justify-center mb-6 float-animation"
+                    style="animation-delay: 1s;">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2"
+                        viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="18" height="18" rx="2" />
+                        <path d="M3 9h18" />
+                    </svg>
+                </div>
+                <h3 class="font-bold text-2xl mb-4 text-primary">Intuitive UI</h3>
+                <p class="text-gray-600 dark:text-gray-300 text-center">Enjoy a clean, modern interface designed for
+                    maximum efficiency and user experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 px-4 bg-light dark:bg-gray-800 animate-on-scroll">
+        <h2 class="text-4xl font-bold mb-12 text-center text-primary">What Our Users Say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div class="bg-card p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 card-hover">
+                <div class="flex mb-4">
+                    <span class="text-yellow-400 text-xl">★★★★★</span>
+                </div>
+                <p class="mb-6 italic text-lg text-gray-700 dark:text-gray-300">"Techify completely transformed our
+                    workflow. The real-time analytics feature is absolutely incredible and has helped us increase
+                    productivity by 300%!"</p>
+                <div class="flex items-center">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User"
+                        class="w-12 h-12 rounded-full mr-4 border-2 border-accent">
+                    <div>
+                        <span class="font-bold text-primary">John Doe</span>
+                        <p class="text-gray-500 dark:text-gray-400">Product Manager at TechCorp</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-card p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 card-hover">
+                <div class="flex mb-4">
+                    <span class="text-yellow-400 text-xl">★★★★★</span>
+                </div>
+                <p class="mb-6 italic text-lg text-gray-700 dark:text-gray-300">"The UI is so intuitive and beautiful!
+                    Our entire team adopted it instantly. Best investment we've made for our development workflow."</p>
+                <div class="flex items-center">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User"
+                        class="w-12 h-12 rounded-full mr-4 border-2 border-accent">
+                    <div>
+                        <span class="font-bold text-primary">Jane Smith</span>
+                        <p class="text-gray-500 dark:text-gray-400">Lead Developer at StartupXYZ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 px-4 max-w-6xl mx-auto animate-on-scroll">
+        <h2 class="text-4xl font-bold mb-12 text-center text-primary">Choose Your Plan</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div
+                class="bg-card p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 flex flex-col items-center card-hover">
+                <h3 class="font-bold text-2xl mb-4 text-primary">Starter</h3>
+                <p class="text-4xl font-bold mb-6 text-accent">Free</p>
+                <ul class="mb-8 text-left space-y-3">
+                    <li class="flex items-center text-gray-600 dark:text-gray-300"><span
+                            class="text-green-500 mr-2">✓</span> Basic features</li>
+                    <li class="flex items-center text-gray-600 dark:text-gray-300"><span
+                            class="text-green-500 mr-2">✓</span> Community support</li>
+                    <li class="flex items-center text-gray-600 dark:text-gray-300"><span
+                            class="text-green-500 mr-2">✓</span> 5GB storage</li>
+                </ul>
+                <button
+                    class="px-8 py-3 bg-accent text-white rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105 shadow-lg w-full">Sign
+                    Up</button>
+            </div>
+            <div
+                class="bg-card p-8 rounded-xl shadow-xl border-2 border-accent flex flex-col items-center card-hover relative">
+                <div
+                    class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-accent text-white px-4 py-1 rounded-full text-sm font-semibold">
+                    Most Popular</div>
+                <h3 class="font-bold text-2xl mb-4 text-primary">Pro</h3>
+                <p class="text-4xl font-bold mb-6 text-accent">$19<span
+                        class="text-lg text-gray-500 dark:text-gray-400">/mo</span></p>
+                <ul class="mb-8 text-left space-y-3">
+                    <li class="flex items-center text-gray-600 dark:text-gray-300"><span
+                            class="text-green-500 mr-2">✓</span> All Starter features</li>
+                    <li class="flex items-center text-gray-600 dark:text-gray-300"><span
+                            class="text-green-500 mr-2">✓</span> Real-time analytics</li>
+                    <li class="flex items-center text-gray-600 dark:text-gray-300"><span
+                            class="text-green-500 mr-2">✓</span> Priority support</li>
+                    <li class="flex items-center text-gray-600 dark:text-gray-300"><span
+                            class="text-green-500 mr-2">✓</span> 100GB storage</li>
+                </ul>
+                <button
+                    class="px-8 py-3 bg-accent text-white rounded-lg hover:bg-blue-600 transition-all duration-300 transform hover:scale-105 shadow-lg w-full">Start
+                    Free Trial</button>
+            </div>
+            <div
+                class="bg-card p-8 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 flex flex-col items-center card-hover">
+                <h3 class="font-bold text-2xl mb-4 text-primary">Enterprise</h3>
+                <p class="text-4xl font-bold mb-6 text-accent">Custom</p>
+                <ul class="mb-8 text-left space-y-3">
+                    <li class="flex items-center text-gray-600 dark:text-gray-300"><span
+                            class="text-green-500 mr-2">✓</span> All Pro features</li>
+                    <li class="flex items-center text-gray-600 dark:text-gray-300"><span
+                            class="text-green-500 mr-2">✓</span> Custom integrations</li>
+                    <li class="flex items-center text-gray-600 dark:text-gray-300"><span
+                            class="text-green-500 mr-2">✓</span> Dedicated manager</li>
+                    <li class="flex items-center text-gray-600 dark:text-gray-300"><span
+                            class="text-green-500 mr-2">✓</span> Unlimited storage</li>
+                </ul>
+                <button
+                    class="px-8 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition-all duration-300 transform hover:scale-105 shadow-lg w-full">Contact
+                    Sales</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="py-20 px-4 text-center gradient-bg animate-on-scroll">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6 text-white">Ready to Elevate Your Workflow?</h2>
+            <p class="mb-10 text-xl text-gray-200 dark:text-gray-300">Join thousands of professionals using Techify to
+                boost productivity and streamline operations.</p>
+            <a href="#"
+                class="inline-block px-10 py-4 bg-white text-primary font-bold rounded-lg shadow-lg hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 hover-glow">
+                <span class="flex items-center gap-2">
+                    Start Your Free Trial
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-4 text-center bg-card border-t border-gray-200 dark:border-gray-700">
+        <div class="max-w-4xl mx-auto">
+            <div class="mb-6">
+                <h3 class="text-2xl font-bold text-primary mb-2">Techify</h3>
+                <p class="text-gray-600 dark:text-gray-400">Elevating workflows, one solution at a time.</p>
+            </div>
+            <div class="flex flex-wrap justify-center gap-6 mb-6">
+                <a href="#" class="text-gray-600 dark:text-gray-400 hover:text-accent transition-colors">Privacy
+                    Policy</a>
+                <a href="#" class="text-gray-600 dark:text-gray-400 hover:text-accent transition-colors">Terms of
+                    Service</a>
+                <a href="#" class="text-gray-600 dark:text-gray-400 hover:text-accent transition-colors">Support</a>
+                <a href="#" class="text-gray-600 dark:text-gray-400 hover:text-accent transition-colors">Contact</a>
+            </div>
+            <p class="text-gray-500 dark:text-gray-500">&copy; 2025 Techify. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
