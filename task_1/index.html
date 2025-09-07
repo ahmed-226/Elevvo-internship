@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible Sidebar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Mobile menu button (visible only on mobile/tablet) -->
+    <button class="mobile-menu-btn" id="mobileMenuBtn">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+        <!-- Logo placeholder -->
+        <div class="logo-section">
+            <div class="logo-placeholder">
+                <i class="fas fa-cube"></i>
+                <span class="logo-text">MyApp</span>
+            </div>
+        </div>
+
+        <!-- Navigation links -->
+        <ul class="nav-links">
+            <li>
+                <a href="#" class="nav-link">
+                    <i class="fas fa-home"></i>
+                    <span class="link-text">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link">
+                    <i class="fas fa-user"></i>
+                    <span class="link-text">Profile</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link">
+                    <i class="fas fa-cog"></i>
+                    <span class="link-text">Settings</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link">
+                    <i class="fas fa-chart-bar"></i>
+                    <span class="link-text">Analytics</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-link">
+                    <i class="fas fa-envelope"></i>
+                    <span class="link-text">Messages</span>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Desktop collapse button (inside sidebar) -->
+        <button class="collapse-btn" id="collapseBtn">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+    </nav>
+
+    <!-- Overlay for mobile -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Main content -->
+    <main class="main-content" id="mainContent">
+        <div class="content">
+            <h1>Task 1: Build a Collapsible Sidebar</h1>
+            <p><strong>Elevvo Internship Program</strong> - First Task Completed Successfully! ✅</p>
+            <p>This collapsible sidebar implementation meets all the specified requirements with enhanced functionality for both desktop and mobile devices.</p>
+            
+            <div class="demo-content">
+                <h2>Task Requirements & Implementation</h2>
+                <p>The task was to create a sidebar section that can open and close when the user clicks a button, with focus on clean layout and smooth animations.</p>
+                
+                <div class="cards">
+                    <div class="card completed">
+                        <h3><i class="fas fa-image"></i> Logo Placeholder</h3>
+                        <p>✅ Implemented a clean logo section at the top of the sidebar with icon and text that adapts when collapsed</p>
+                    </div>
+                    <div class="card completed">
+                        <h3><i class="fas fa-link"></i> Navigation Links</h3>
+                        <p>✅ Created 4-5 navigation links with Font Awesome icons (Dashboard, Profile, Settings, Analytics, Messages)</p>
+                    </div>
+                    <div class="card completed">
+                        <h3><i class="fas fa-toggle-on"></i> Toggle Functionality</h3>
+                        <p>✅ Added toggle button to open/close sidebar with smooth animations and responsive behavior</p>
+                    </div>
+                    <div class="card completed">
+                        <h3><i class="fas fa-mobile-alt"></i> Mobile Responsive</h3>
+                        <p>✅ Bonus: Made sidebar responsive on mobile screens with dedicated mobile menu button and overlay</p>
+                    </div>
+                    <div class="card completed">
+                        <h3><i class="fas fa-magic"></i> Enhanced Features</h3>
+                        <p>✅ Added smooth animations, accessibility features, keyboard navigation, and touch gestures</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
