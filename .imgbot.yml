@@ -1,0 +1,49 @@
+# ImgBot Configuration
+# https://imgbot.net/docs
+
+# Image optimization schedule
+schedule: "weekly"
+
+# Compression aggressiveness (1-100, higher = more compression)
+compression_level: 85
+
+# Minimum file size threshold to process (in bytes)
+# Only optimize images larger than 10KB
+minimum_compression_bytes: 10240
+
+# File patterns to include
+include:
+  - "**/*.png"
+  - "**/*.jpg"
+  - "**/*.jpeg"
+  - "**/*.gif"
+  - "**/*.svg"
+  - "**/*.webp"
+
+# File patterns to exclude
+exclude:
+  - "node_modules/**"
+  - ".git/**"
+  - "**/dist/**"
+  - "**/build/**"
+  - "**/.next/**"
+
+# Preserve original images as backup
+preserve_originals: false
+
+# Pull request settings
+auto_merge: false
+ignore_size_reduction_threshold: 1024  # Ignore changes smaller than 1KB
+
+# Specific optimization settings
+png:
+  compression_level: 9  # Maximum PNG compression
+  
+jpeg:
+  quality: 85  # JPEG quality (1-100)
+  
+gif:
+  lossy: true  # Allow lossy GIF compression for better size reduction
+  
+# Custom commit message
+commit_message: "[ImgBot] Optimize images"
