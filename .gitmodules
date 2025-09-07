@@ -1,3 +1,6 @@
 [submodule "task_6"]
 	path = task_6
 	url = https://github.com/ahmed-226/WorkSphere.git
+[submodule "task_8"]
+	path = task_8
+	url = https://github.com/ahmed-226/Job-Tracker.git
